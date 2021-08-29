@@ -20,5 +20,5 @@ names: ["stroke"]
 6. Then run:
     1. ```cd yolov5```
     2. For training: ```python train.py --img 1024 --batch 1 --epochs 1 --data image.yaml```
-    3. For detection: ```python detect.py --source ../data/videos/71023710613.mp4 --weights best.pt```
+    3. For detection (use any video): ```python detect.py --source ../data/videos/<video name>.mp4 --weights best.pt```
 7. The output video can be viewed in the folder ```./yolov5/runs/detect/exp*```
